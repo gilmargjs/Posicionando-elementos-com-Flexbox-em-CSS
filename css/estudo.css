@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  padding: 10px;
+  list-style: none;
+}
+.item {
+  padding: 5px 15px;
+  margin: 5px 15px;
+  background: #836fff;
+  border-radius: 10px;
+}
+.container :hover {
+  color: #fff;
+  background: #708090;
+}
+.item a {
+  text-decoration: none;
+  color: #000;
+}
+.cab {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background: #f6f6f6;
+}
